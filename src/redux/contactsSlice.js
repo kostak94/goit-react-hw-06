@@ -1,6 +1,6 @@
 import { createSlice, nanoid } from "@reduxjs/toolkit";
-import initialContacts from "../../assets/contacts.json";
-import { formatPhoneNumber } from "../../assets/helpers/formatPhoneNum";
+import initialContacts from "../assets/contacts.json";
+import { formatPhoneNumber } from "../assets/helpers/formatPhoneNum";
 
 const initialState = {
   contacts: initialContacts,

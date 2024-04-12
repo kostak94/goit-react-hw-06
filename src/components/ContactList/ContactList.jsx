@@ -1,8 +1,8 @@
 import Contact from "../Contact/Contact";
 import css from "../PhoneBook.module.css";
 import { useSelector, useDispatch } from "react-redux";
-import { selectFilters } from "../redux/filtersSlice";
-import { deleteContact, selectContacts } from "../redux/contactsSlice";
+import { selectFilters } from "../../redux/filtersSlice";
+import { deleteContact, selectContacts } from "../../redux/contactsSlice";
 
 const ContactList = () => {
   const filters = useSelector(selectFilters);

@@ -3,7 +3,7 @@ import * as Yup from "yup";
 import { nanoid } from "nanoid";
 import css from "../PhoneBook.module.css";
 import { useDispatch } from "react-redux";
-import { addNewContact } from "../redux/contactsSlice";
+import { addNewContact } from "../../redux/contactsSlice";
 
 const initialValues = {
   name: "",
